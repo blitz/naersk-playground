@@ -9,6 +9,6 @@
 pkgs.mkShell {
   nativeBuildInputs = [
     pkgs.niv
-    pkgs.rust-bin.stable.latest.default
+    pkgs.rust-bin.nightly.latest.default
   ];
 }
